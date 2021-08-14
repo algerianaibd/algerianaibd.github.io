@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-       
+
         <title>Algerian AI Summer University</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -11,6 +11,35 @@
 
     <body>
         <div class="banner">
+            <nav class="navbar" role="navigation">
+                <div class="navbar-brand">
+                    <!--
+                    <a class="navbar-item" href="./">
+                        <img src="./images/logo.jpg" class="logo" />
+                    </a>-->
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbar125sdf" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item active" href="index.html">
+                            Home
+                        </a>
+
+                        <a class="navbar-item" href="schedule.html">
+                            Schedule
+                        </a>
+                    </div>
+
+                    <div class="navbar-end"></div>
+                </div>
+            </nav>
+
             <img src="https://images.unsplash.com/photo-1490093158370-1a6be674437b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=joel-filipe-VuwAfoHpxgs-unsplash.jpg&w=1920" class="is-absolute" />
             <div class="container has-text-centered-mobile">
                 <header>
@@ -108,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-            </div>     
+            </div>
             <div class="column">
                 <div class="container">
                     <div class="speakers-container">
@@ -137,28 +166,7 @@
                     </div>
                 </div>
             </div>
-            <div class="column">
-                <div class="container">
-                    <div class="speakers-container">
-                        <div class="images">
-                            <img src="images/ybekhti - Yousra Bekhti.PNG" />
-                        </div>
-
-                        <!-- <p class="pick">choose size</p>-->
-
-                        <div class="person">
-                            <h1>Yousra BEKHTI</h1>
-                            <!--<p></p>-->
-                            <h2>Data Scientist at ENGIE Impact</h2>
-                            <p class="desc">
-                                Yousra Bekhti, currently working as a Data Scientist in the R&D team at ENGIE Impact in Boston. She applies machine learning to drive energy efficiency and reduce the environmental impact. She did her
-                                bachelor and master in computer science and applied mathematics at universite Pierre et Marie Curie (Paris 6) in Paris, then she worked as a research assistant in Harvard Medical School applying machine
-                                learning to brain research. She got her PhD in machine learning and optimization applied to neuroscience from Telecom ParisTech, under the supervision of Alexandre Gramfort.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      
             <div class="column">
                 <div class="container">
                     <div class="speakers-container">
@@ -360,7 +368,6 @@
                     </div>
                 </div>
             </div>
-           
         </section>
         <section class="section" id="organizers">
             <div class="container">
@@ -392,6 +399,11 @@
             </div>
             <hr />
         </section>
+
+
+
+
+
         <footer class="footer">
             <div class="container">
                 <div class="has-text-centered max-w-650 mx-auto">
@@ -411,38 +423,32 @@
                 </div>
             </div>
         </footer>
-        
 
+        <div id="bio-modal" class="modal">
+            <div class="modal-background"></div>
 
-<div id="bio-modal" class="modal">
-  <div class="modal-background"></div>
-  
-  <div class="modal-content">
-    <div class="box">
-      <article class="media">
-        <div class="media-left">
-          <figure class="image is-64x64">
-            <img id="person-img" src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-          </figure>
+            <div class="modal-content">
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img id="person-img" src="https://bulma.io/images/placeholders/128x128.png" alt="Image" />
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <strong id="person-name"></strong> <small></small> <small>.</small>
+                                <hr style="margin: 0.8rem 0;" />
+                                <div id="person-desc"></div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
         </div>
-        <div class="media-content">
-          <div class="content">
-            <p>
-              <strong id="person-name"></strong> <small></small> <small>.</small>
-              <hr style="margin:.8rem 0"/>
-			  <div id="person-desc"></div>
-            
-            </p>
-          </div>
-         
-        </div>
-      </article>
-    </div>
-  </div>
-  <button class="modal-close is-large" aria-label="close"></button>
-</div>
-		
-		<script type="text/javascript" src="js/script.js"></script>
-	
+
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

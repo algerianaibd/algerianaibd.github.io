@@ -2,7 +2,11 @@
   https://fonts.googleapis.com/css?family=Lato:400,
   700,
   900
-); /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
+); 
+/*
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+*/
+/*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
     transform: rotate(0deg);

@@ -247,6 +247,20 @@ header .app-title span {
   background: #2d2e4b;
   padding: 50px 0px;
   position: relative;
+}.table-content-container {
+
+  background: #2d2e4b;
+  padding: 50px 0px;
+  position: relative;
+}.table-content-container .workshop-title{
+	color:#245;	
+	font-weight:bold;
+	cursor:pointer;
+}.table-content-container .workshop-title:hover{
+	color:#355;
+}
+.table-content-container p.workshop-bio{
+display:none;
 }
 
 .footer .container {
@@ -375,7 +389,71 @@ body {
   vertical-align: middle;
 }
 
+.navbar{
+	border-bottom:2px solid #888;
+	background:#fff5!important;
+	border-bottom:#fff8!important;
 
+}
+.navbar .navbar-menu{
+	border-bottom:2px solid #888;
+	background:#fff5!important;
+	border-bottom:#fff8!important;
+
+}
+#navbar125sdf .navbar-item{
+	font-size:1.5rem!important;
+	font-family:  monospace;
+		color:000!important;
+}#navbar125sdf .navbar-item:hover{
+	background:#fff8!important;
+}
+#navbar125sdf .navbar-item.active{
+	font-weight:bold!important;
+	text-decoration:underline!important;
+}
+.logo{
+	
+	  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1px;
+  margin:0!important;
+
+}
+.table{
+	border-radius:5px!important;
+}
+.table  tr.is-selected .chip a{
+	  color:white;
+}.table  tr.is-selected .chip{
+	  border:1px solid #f4f4f4;
+}
+.table tr .chip {
+  display: flex;
+  align-items:center;
+  
+  height: 50px;
+  min-width:110px;
+  font-size: 16px;/*
+  line-height: 50px; background-color: #f1f1f1;
+*/  overflow:hidden;
+ 
+  border:1px solid #f1f1f1;
+  border-radius: 25px;
+}
+.table tr .chip a {
+  margin-right:20px;
+  color:black;
+  font-weight:700;
+}
+.table tr .chip img {
+margin-right:5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-decoration:none;
+
+}
 /**Modal*/
 
 #bio-modal{
